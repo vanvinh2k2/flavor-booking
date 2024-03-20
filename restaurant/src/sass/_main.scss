@@ -1,0 +1,14 @@
+@import './base/base';
+@import './base//utilities';
+
+@import './component/Sidebar/sidebar';
+@import './container/NotFound/notfound';
+
+@import './container/Dashboard/dashboard';
+@import './container/Dish/dish';
+@import './container/Login/login';
+@import './container/Table/table';
+
+@import './container/Chat/chat';
+@import './container/OrderDetail/orderdetail';
+@import './container/Contact/contact';

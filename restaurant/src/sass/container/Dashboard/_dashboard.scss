@@ -1,0 +1,78 @@
+.fc-license-message{
+    display: none !important;
+}
+table.fc-scrollgrid {
+    colgroup col:first-child {
+        width: 15% !important;
+    }
+    table colgroup col:first-child {
+        width: 30px !important;
+    }
+}
+
+h3{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.add-OrderDetail .card{
+    padding: 20px 20px 0;
+    table{
+        margin: 0 !important;
+    }
+    .item{
+        display: flex;
+        justify-content: space-between;
+    }
+    p{
+        margin-bottom: 10px;
+    }
+    .form-group{
+        margin-top: 20px;
+    }
+}
+
+.fc-timeline-lane-frame, tbody .fc-datagrid-cell-frame{
+    height: 95px !important;
+}
+
+.note{
+    margin: 15px 0 20px;
+    display: flex;
+    align-items: center;
+    .content-note{
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+    }
+    .legend{
+        height: 20px;
+        width: 40px;
+        margin-right: 10px;
+    }
+}
+
+// .content-dastboard{
+//     display: flex;
+//     flex-wrap: wrap;
+// }
+
+.order-chart{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.user-chart{
+    max-width: 350px !important;
+    max-height: 350px !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 auto;
+}
+
+.content-chart, .content-order{
+    margin-bottom: 15px;
+    padding: 25px 20px;
+}
